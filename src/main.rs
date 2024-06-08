@@ -23,7 +23,7 @@ struct CliArgs {
     #[arg(short = 'i', long = "input-file-path")]
     input_file_path: PathBuf,
 
-    #[arg(short = 'o', long = "output-file-path")]
+    #[arg(short = 'o', long = "output-directory-path")]
     output_directory_path: PathBuf,
 }
 
